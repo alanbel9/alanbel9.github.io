@@ -1,0 +1,28 @@
+{
+  "name": "alanbel9.github.io",
+  "version": "1.0.0",
+  "description": "Página personal",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanbel9/alanbel9.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanbel9/alanbel9.github.io/issues"
+  },
+  "homepage": "https://github.com/alanbel9/alanbel9.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  }
+}
