@@ -8,14 +8,24 @@
     <meta name="description" content="Web personal">
     <meta name="author" content="Alan Bel">
     <link rel="icon" href="../../assets/images/abel.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-
 <body>
-    <embed src="../../assets/pdf/menu-cumpleanos-alan-bel.pdf" 
-           type="application/pdf" 
-           width="100%" 
-           height="100%" 
-    />
+    <p>Tu teléfono ha sido hackeado.</p> 
+    <p>Accediendo a tu cuenta bancaria y realizando transferencia a nombre de Alan Bel.</p> 
+    <p>Gracias por tu generoso donativo.</p>
+
+    <button onclick="jQuery('#content-pdf').show()">
+        VER MENÚ
+    </button>
+
+    <div id="content-pdf" style="display: none;">
+        <embed src="../../assets/pdf/menu-cumpleanos-alan-bel.pdf" 
+               type="application/pdf" 
+               width="100%" 
+               height="100%" 
+        />
+    </div>
 </body>
 
 </html>
